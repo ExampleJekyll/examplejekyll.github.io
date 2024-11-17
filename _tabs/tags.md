@@ -1,5 +1,5 @@
 ---
 layout: tags
-icon: bi bi-building
+icon: bi bi-browser-firefox
 order: 2
 ---
