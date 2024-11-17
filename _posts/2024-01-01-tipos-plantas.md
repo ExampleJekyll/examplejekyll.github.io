@@ -5,7 +5,7 @@ categories: [Biologia, Plantas]
 tags: [Plantacion, GitHub, Ejemplo]
 ---
 
-# Tipos de Plantas fas fa-info-circle
+# Tipos de Plantas <fas fa-info-circle>
 
 Las plantas pueden clasificarse de varias maneras dependiendo de sus características morfológicas, reproductivas y ecológicas. A continuación, te presento una clasificación general de las plantas basada en sus sistemas vasculares y estructuras reproductivas.
 
