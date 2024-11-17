@@ -1,5 +1,5 @@
 ---
 layout: tags
-icon: fas fa-tags
+icon: bi bi-building
 order: 2
 ---
