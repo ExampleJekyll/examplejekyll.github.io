@@ -1,5 +1,5 @@
 ---
 layout: tags
-icon: bi bi-browser-firefox
+icon: fa-solid fa-comments
 order: 2
 ---
