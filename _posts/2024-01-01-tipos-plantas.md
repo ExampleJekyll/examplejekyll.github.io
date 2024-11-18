@@ -3,6 +3,7 @@ layout: post
 title:  "Tipos de Plantas"
 categories: [Biologia, Plantas]
 tags: [Plantacion, GitHub, Ejemplo]
+pin: true
 ---
 
 # Tipos de Plantas <fas fa-info-circle>
