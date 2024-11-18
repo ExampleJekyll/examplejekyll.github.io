@@ -14,6 +14,8 @@ Las plantas pueden clasificarse de varias maneras dependiendo de sus caracterís
 
 ## 1. Plantas Vasculares
 
+test 
+
 Las **plantas vasculares** tienen un sistema de tejidos especializado, como el **xilema** y el **floema**, que les permiten transportar agua, nutrientes y productos de la fotosíntesis. Este sistema les permite ser más grandes y complejas que las plantas no vasculares.
 
 ### a. **Angiospermas** (Plantas con flores)
