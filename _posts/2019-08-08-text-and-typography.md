@@ -8,7 +8,7 @@ tags: [typography]
 pin: true
 math: true
 mermaid: true
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
 ## Headings
