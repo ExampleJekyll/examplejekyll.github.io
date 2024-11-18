@@ -11,7 +11,7 @@ order: 5
 {: .prompt-warning }
 
 > Esto es una nota.
-{: .prompt-notes }
+{: .prompt-danger }
 
 > Esto es importante.
 {: .prompt-important }
