@@ -18,3 +18,6 @@ order: 5
 
 > Esto es una prueba.
 {: .prompt-caution }
+
+> Esto es una prueba.
+{: .prompt-error }
