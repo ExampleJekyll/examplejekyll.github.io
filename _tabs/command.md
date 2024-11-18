@@ -10,11 +10,11 @@ order: 5
 > Esto es un aviso.
 {: .prompt-warning }
 
-> Esto es una nota.
+> Esto es peligroso.
 {: .prompt-danger }
 
-> Esto es importante.
-{: .prompt-important }
+> Esto es test.
+{: .prompt-info }
 
 > Esto es una prueba.
 {: .prompt-caution }
