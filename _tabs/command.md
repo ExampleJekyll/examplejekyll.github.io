@@ -4,6 +4,9 @@ icon: fa-solid fa-terminal
 order: 5
 ---
 
+> [!NOTE]
+> Esto es un aviso.
+
 > Esto es un consejo.
 {: .prompt-tip }
 
