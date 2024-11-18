@@ -8,7 +8,6 @@
 
 - type: test
   icon: "fa-solid fa-spoon"
-  url: "google,es"
 
 - type: email
   icon: "fas fa-envelope"
