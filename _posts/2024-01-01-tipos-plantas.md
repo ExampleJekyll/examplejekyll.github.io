@@ -4,6 +4,7 @@ title:  "Tipos de Plantas"
 categories: [Biologia, Plantas]
 tags: [Plantacion, GitHub, Ejemplo]
 pin: true
+author: sitio
 ---
 
 # Tipos de Plantas <fas fa-info-circle>
