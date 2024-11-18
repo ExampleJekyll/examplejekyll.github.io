@@ -39,10 +39,4 @@ order: 5
 ```
 
 > Esto es test.
-{: .prompt-default }
-
-> Esto es test.
-{: .prompt-primary }
-
-> Esto es test.
-{: .prompt-success }
+{: .prompt-important-icon }
