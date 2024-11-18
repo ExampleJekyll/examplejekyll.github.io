@@ -4,8 +4,7 @@ icon: fa-solid fa-terminal
 order: 5
 ---
 
-# Tipos de Mensajes de Indicacion
-
+# Tipos de Mensajes de Indicacion y su codigo
 
 > Esto es un consejo.
 {: .prompt-tip }
@@ -18,8 +17,23 @@ order: 5
 > Esto es un aviso.
 {: .prompt-warning }
 
+```
+> Esto es un aviso.
+{: .prompt-warning }
+```
+
 > Esto es peligroso.
 {: .prompt-danger }
 
+```
+> Esto es peligroso.
+{: .prompt-danger }
+```
+
 > Esto es una nota.
 {: .prompt-info }
+
+```
+> Esto es una nota.
+{: .prompt-info }
+```
