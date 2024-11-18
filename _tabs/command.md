@@ -6,6 +6,7 @@ order: 5
 
 # Tipos de Mensajes de Indicacion
 
+
 > Esto es un consejo.
 {: .prompt-tip }
 
