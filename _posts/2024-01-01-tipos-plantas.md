@@ -4,6 +4,7 @@ title:  "Tipos de Plantas"
 categories: [Biologia, Plantas]
 tags: [Plantacion, GitHub, Ejemplo]
 pin: true
+date: 2024-01-01 11:33:00 +0800
 author: sitio
 ---
 
