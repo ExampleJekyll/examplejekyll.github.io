@@ -21,3 +21,12 @@ order: 5
 
 > Esto es una prueba.
 {: .prompt-error }
+
+
+> Esto es una **nota** informativa. {: .note }
+> Esto es un **consejo** útil. {: .tip }
+> Esto es una **advertencia** importante. {: .warning }
+> Esto es un **error** que necesitas corregir. {: .error }
+> Esto es un **cuidado** con un detalle importante. {: .caution }
+> Esto es algo **importante** que debes recordar. {: .important }
+
