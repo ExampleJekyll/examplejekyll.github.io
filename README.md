@@ -41,3 +41,20 @@ This work is published under [MIT][mit] License.
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+# Test
+
+> Esto es un consejo.
+{: .prompt-tip }
+
+> Esto es un aviso.
+{: .prompt-warning }
+
+> Esto es una nota.
+{: .prompt-note }
+
+> Esto es importante.
+{: .prompt-important }
+
+> Esto es una prueba.
+{: .prompt-caution }
