@@ -44,11 +44,9 @@ This work is published under [MIT][mit] License.
 
 # Test
 
-> Esto es un consejo.
-{: .prompt-tip }
-
+> [!NOTE]
 > Esto es un aviso.
-{: .prompt-warning }
+
 
 > Esto es una nota.
 {: .prompt-note }
