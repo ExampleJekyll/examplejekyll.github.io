@@ -37,3 +37,12 @@ order: 5
 > Esto es una nota.
 {: .prompt-info }
 ```
+
+> Esto es test.
+{: .prompt-default }
+
+> Esto es test.
+{: .prompt-primary }
+
+> Esto es test.
+{: .prompt-success }
