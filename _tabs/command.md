@@ -4,8 +4,7 @@ icon: fa-solid fa-terminal
 order: 5
 ---
 
-> [!NOTE]
-> Esto es un aviso.
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph. <br/><br/> Now I'm typing on a  new line." %}
 
 > Esto es un consejo.
 {: .prompt-tip }
@@ -14,7 +13,7 @@ order: 5
 {: .prompt-warning }
 
 > Esto es una nota.
-{: .prompt-note }
+{: .prompt-notes }
 
 > Esto es importante.
 {: .prompt-important }
