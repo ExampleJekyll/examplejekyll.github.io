@@ -1,0 +1,112 @@
+---
+# the default layout is 'page'
+layout: default
+title: Script
+show_title: false
+icon: fas fa-code-compare
+order: 7
+permalink: /firmware-selector
+---
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subida de Archivos con Terminal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #c7c7c7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4caf50;
+    }
+
+    .upload-box {
+      margin: 20px 0;
+      padding: 20px;
+      border: 2px dashed #4caf50;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: #2e2e2e;
+    }
+
+    .upload-box:hover {
+      background-color: #3a3a3a;
+    }
+
+    .terminal {
+      margin-top: 20px;
+      background-color: #000;
+      color: #0f0;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: "Courier New", Courier, monospace;
+      height: 300px;
+      overflow-y: auto;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Subida de Archivos y Terminal</h1>
+    <div id="uploadBox" class="upload-box">
+      Arrastra o haz clic para subir un archivo
+      <input type="file" id="fileInput" style="display: none;">
+    </div>
+    <div class="terminal" id="terminalOutput">
+      Terminal lista para mostrar actividad de sfo.py...
+    </div>
+  </div>
+
+  <script>
+    const uploadBox = document.getElementById("uploadBox");
+    const fileInput = document.getElementById("fileInput");
+    const terminalOutput = document.getElementById("terminalOutput");
+
+    // Simular proceso de carga y ejecución de sfo.py
+    uploadBox.addEventListener("click", () => {
+      fileInput.click();
+    });
+
+    fileInput.addEventListener("change", async () => {
+      const file = fileInput.files[0];
+      if (!file) return;
+
+      terminalOutput.innerHTML = `Archivo recibido: ${file.name}\nEjecutando sfo.py...\n`;
+      
+      // Aquí se simula un retraso y salida del script
+      await new Promise(resolve => setTimeout(resolve, 1000)); // Simula espera
+      terminalOutput.innerHTML += "Inicio del script...\n";
+      
+      // Simular ejecución con salida ficticia
+      let output = [
+        "Leyendo archivo...",
+        "Procesando datos...",
+        "Finalizando tarea...",
+        "sfo.py ejecutado exitosamente."
+      ];
+
+      for (let line of output) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        terminalOutput.innerHTML += line + "\n";
+        terminalOutput.scrollTop = terminalOutput.scrollHeight;
+      }
+    });
+  </script>
+</body>
+</html>
+
+
